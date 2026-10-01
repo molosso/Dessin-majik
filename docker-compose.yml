@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  cute-painter:
+    build: .
+    container_name: cute_pixel_painter
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    devices:
+      - /dev/video0:/dev/video0
+    ipc: host
+    network_mode: host
