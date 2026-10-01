@@ -111,12 +111,11 @@ This creates a natural human-computer interaction experience based on computer v
 ```
 cute-pixel-air-painter/
 │
-├── air_painter.py          # Main application
+├── app.py   ou app2.py       # Main application
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 ├── .gitignore              # Ignored files
-│
-└── assets/                 # Images and resources
+
 ```
 
 ## Requirements
